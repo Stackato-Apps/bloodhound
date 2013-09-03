@@ -14,18 +14,19 @@
 #  KIND, either express or implied.  See the License for the
 #  specific language governing permissions and limitations
 #  under the License.
-
+mysql-python
+psycopg2
 Pygments
 pytz==2013b
 sqlparse==0.1.7
 Babel==0.9.6
 Genshi==0.6.1
-../trac
+./trac
 TracAccountManager
-../bloodhound_multiproduct
+./bloodhound_multiproduct
 TracThemeEngine
-../bloodhound_dashboard
-../bloodhound_theme
+./bloodhound_dashboard
+./bloodhound_theme
 TracPermRedirect
-../bloodhound_search
-../bloodhound_relations
+./bloodhound_search
+./bloodhound_relations
