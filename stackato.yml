@@ -1,7 +1,5 @@
 name: bloodhound
 mem: 512M
-framework:
-  type: buildpack
 services:
   ${name}-db: mysql
 hooks:
@@ -9,5 +7,3 @@ hooks:
     - trac-admin main initenv bloodhound $DATABASE_URL --inherit=base.ini
     - trac-admin main wiki upgrade
     - trac-admin main permission add admin TRAC_ADMIN
-processes:
-  web: tracd --port=$PORT main
