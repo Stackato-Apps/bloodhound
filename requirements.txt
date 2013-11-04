@@ -15,7 +15,6 @@
 #  specific language governing permissions and limitations
 #  under the License.
 mysql-python
-psycopg2
 Pygments
 pytz==2013b
 sqlparse==0.1.7
