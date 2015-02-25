@@ -6,3 +6,8 @@ This sample application installs Apache Bloodhound on Stackato. To get running w
     $ cd bloodhound
     $ git checkout stackato-v3
     $ stackato push -n
+
+Login Information
+
+    user: admin
+    password: stackato

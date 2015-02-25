@@ -1,1 +1,1 @@
-web: tracd --port=$PORT main
+web: tracd --port=$PORT --basic-auth="main,.htpasswd,bloodhound" main
