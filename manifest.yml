@@ -1,6 +1,6 @@
 applications:
 - name: bloodhound
-  mem: 512M
+  memory: 512M
   services:
     ${name}-db:
       type: mysql
