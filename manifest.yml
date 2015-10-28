@@ -1,7 +1,7 @@
 applications:
 - name: bloodhound
   docker_image: stackatoapps/bloodhound:latest
-  mem: 512M
+  memory: 512M
   services:
     ${name}-db:
       type: mysql
