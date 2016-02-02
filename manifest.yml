@@ -1,9 +1,11 @@
 applications:
 - name: bloodhound
+  buildpack: https://github.com/cloudfoundry/python-buildpack#v1.5.4
   memory: 512M
   services:
     ${name}-db:
       type: mysql
+  stack: cflinuxfs2
   stackato:
     hooks:
       pre-running:
